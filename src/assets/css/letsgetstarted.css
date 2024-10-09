@@ -1,0 +1,82 @@
+/*************LETS GET STARTED SECTION CSS STYLING STARTS FROM HERE*************/
+.lets-start-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #005bc4;
+  height: 100vh;
+}
+
+.lets-start-section h1 {
+  font-size: 60px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  color: white;
+}
+
+.lets-start-section p {
+  font-size: 17px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: white;
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+}
+
+.lets-start-button {
+  text-decoration: none;
+  background-color: white;
+  color: #005bc4;
+  padding: 13px 35px;
+  display: inline-block;
+  margin-top: 20px;
+  border-radius: 4px;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.2s ease;
+}
+
+.lets-start-button {
+  box-shadow: 8px 16px 16px rgba(255, 255, 255, 0.2);
+}
+
+/* Media queries for different screen sizes */
+
+/* For large screens (desktops and laptops) */
+@media only screen and (min-width: 1200px) {
+  .lets-start-section h1 {
+    font-size: 80px;
+  }
+  .lets-start-section p {
+    font-size: 20px;
+  }
+  .lets-start-button {
+    padding: 15px 40px;
+  }
+}
+
+/* For medium screens (tablets) */
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  .lets-start-section h1 {
+    font-size: 60px;
+  }
+  .lets-start-section p {
+    font-size: 18px;
+  }
+  .lets-start-button {
+    padding: 12px 30px;
+  }
+}
+
+/* For small screens (mobile devices) */
+@media only screen and (max-width: 767px) {
+  .lets-start-section h1 {
+    font-size: 40px;
+  }
+  .lets-start-section p {
+    font-size: 15px;
+  }
+  .lets-start-button {
+    padding: 10px 20px;
+  }
+}

@@ -1,0 +1,100 @@
+.right-main-upper-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.addApp {
+  background: rgba(245, 247, 253, 1) !important;
+  border: 2px solid rgba(0, 0, 0, 0.1) !important;
+  border-radius: 10px !important;
+  color: rgba(0, 0, 0, 0.6) !important;
+  font-weight: bold !important;
+}
+
+.app-type-buttons {
+  display: flex;
+  gap: 5px;
+}
+
+.app-type-button {
+  border: none;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.app-bttton-review{
+  padding: 10px 20px 10px 20px;
+  width: 163px;
+  height: 44px;
+  border-radius: 40px;
+  text-align: center;
+  /* margin-right: auto; */
+  margin-left: auto;
+  /* font-size: 14px; */
+  font-weight: 400;
+  cursor: pointer;
+  font-size: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: black;
+  padding: 10px 20px;
+}
+
+
+.app-type-button.productive {
+  background-color: green;
+}
+
+.app-type-button.neutral {
+  background-color: yellow;
+  color: black; /* Use black for better contrast on yellow background */
+}
+
+.app-type-button.unproductive {
+  background-color: red;
+}
+
+.app-type-button.selected {
+  border: 2px solid black; /* Highlight selected button */
+}
+
+
+.app-type-buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.app-type-button {
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.app-type-button.productive {
+    background-color: rgb(52, 206, 52);
+}
+
+.app-type-button.neutral {
+    background-color: rgb(179, 179, 21);
+    color: black;
+    /* Use black for better contrast on yellow background */
+}
+
+.app-type-button.unproductive {
+    background-color: red;
+}
+
+.app-type-button.selected {
+    border: 2px solid black;
+    /* Highlight selected button */
+}
+
+

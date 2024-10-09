@@ -1,0 +1,318 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap") ;
+
+* {
+  margin: 0 ;
+  padding: 0 ;
+  box-sizing: border-box ;
+}
+
+/******CSS MAIN STYLING STARTS FROM HERE******/
+.main-container {
+  width: 1700px ;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+
+body {
+  background: #F5F7FD ;
+  font-family: "Poppins", sans-serif !important;
+}
+
+.right-content {
+  padding-left: 20px ;
+  width: -webkit-fill-available ;
+  padding-right: 20px ;
+  margin-left: 300px ;
+}
+
+/******************SETTINGS PAGE STYLING STARTS FROM HERE****************************/
+.settings-main-section {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  grid-gap: 30px !important;
+}
+
+.settings-head h2 {
+  color: rgba( 0, 0, 0, 0.7)!important;
+  font-size: 2rem !important;
+  font-style: normal !important;
+}
+
+.settings-head h4 {
+  color: #929292 !important;
+  font-size: 1rem !important;
+  font-style: normal !important;
+}
+
+.settings-main-section {
+  margin-top: 30px !important;
+  
+}
+
+
+.work-time-settings {
+  padding: 22px 37px !important;
+  border-radius: 12px !important;
+  background: #FFF !important;
+ 
+ 
+}
+
+
+.work-time-settings h3 {
+  color: #172B4D !important;
+  font-size: 1.5rem !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+
+}
+
+.work-time-settings p {
+  color: #929292 !important;
+  font-size: 1rem!important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  margin-bottom: 18px !important;
+  
+}
+
+.work-time-settings-input input {
+  width: 100% !important;
+  text-decoration: none !important;
+  color: black !important;
+  font-size: 16px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  height: 50px !important;
+  border: 1px solid #9A9591 !important;
+  border-radius: 8px !important;
+  margin-top: 10px !important;
+  margin-bottom: 15px !important;
+  padding-left: 20px !important;
+}
+
+.work-time-settings-input label {
+  color: #272727 !important;
+  font-size: 16px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+}
+.settings-save-btn {
+    text-decoration: none !important;
+    border-radius: 8px !important;
+    border: 1px solid rgba( 0, 0, 0, 0.1)!important;
+    background: #0a58ca !important;
+    padding: 12px 30px !important;
+    color: White !important;
+    font-size: 1rem !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    margin-top: 25px !important;
+    text-align: center !important;
+  }
+  
+  .settings-save {
+    display: flex !important;
+    justify-content: center !important;
+  }
+  
+
+/* ****** PROOF PAGE STYLING STARTS FROM HERE *********** */
+/* screenshots page  css */
+.screenshot-heading-starts {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  
+}
+
+.left-screenshot-heading h3 {
+  color: rgba( 0, 0, 0, 0.7) !important;
+  font-size: 2.2rem !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  margin-bottom: 13px !important;
+ 
+}
+
+.left-screenshot-heading p {
+  color: #929292 !important;
+  font-size: 1rem !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+
+
+}
+
+.date {
+  text-decoration: none !important;
+  border-radius: 8px !important;
+  border: 1px solid rgba(0, 63, 182, 0.1) !important;
+  background: #fff !important;
+  font-size: 1rem !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  color: #484848 !important;
+  padding: 18px 10px !important;
+
+}
+ /* screenshot grid card */
+ .main-screenshot-cardbox {
+  display: grid !important;
+  grid-template-columns: repeat(8, 1fr) !important;
+  gap: 15px !important;
+  padding:5px 5px 5px 5px!important;
+  background-color: #fff !important;
+  border-radius: 8px !important;
+  height: 68vh;
+  overflow-y: scroll;
+}
+.main-card-content {
+    text-align: center !important;
+
+
+
+}
+.main-card-content img {
+    width: 100% !important;
+    height: auto !important;
+    object-fit: cover !important;
+}
+
+
+.card-content{
+    display: block !important;
+    text-align: center !important;
+    align-items: center !important;
+    padding: 0px !important;
+}
+.card-content h3 {
+    font-size: 1.2rem,!important;
+    font-weight: 500 !important;
+  }
+  
+  .card-content p {
+    color: #292929 !important;
+    text-align: center  !important;
+    font-size: 0.8rem  !important;
+    font-weight: 400 !important 
+}
+
+
+/* screenshoot zoom in css*/
+
+
+.screenshot {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    padding: 10px !important;
+    object-fit: cover !important;
+    z-index: 10 !important;
+    overflow-y: scroll !important;
+}
+
+.screenshot-content img {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.close-btn {
+    position: absolute !important;
+    top: 10px !important;
+    right: 10px !important;
+    color: white !important;
+    padding: 0px 7px !important;
+    background-color: red !important;
+    border-radius: 2px !important;
+    z-index: 1!important;
+}
+
+
+
+
+
+/* ******************* timeslaps page css start here **************************** */
+
+.right-main-upper-content h6 {
+    font-size: 2rem !important;
+    line-height: 32px !important;
+    margin-bottom: 8px !important;
+    margin-top: 11px !important;
+    color: rgba( 0, 0, 0, 0.7) !important;
+    font-weight: 400 !important;
+   
+  }
+  
+.right-main-upper-content .page {
+    font-size:  1rem!important;
+    color: #666 !important;
+    
+}
+
+.video-cont {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    grid-template-rows: repeat(2, auto) !important;
+    grid-template-areas:
+        "video1 video2 video3"
+        "video1 video2 video3" !important;
+    gap: 0px !important;
+   margin-top: 10px;
+   height: 75vh;
+   overflow-y: scroll;
+   background-color: white;
+  border-radius: 12px;
+}
+ #video1 {
+    grid-area: video1 !important;
+  }
+  
+  #video2 {
+    grid-area: video2 !important;
+  }
+  
+  #video3 {
+    grid-area: video3 !important;
+  }
+  
+
+video {
+    width: 500px !important;
+    height: 255px  !important;
+   
+   
+  }
+
+  .video-info{
+    display: flex !important;
+    justify-content:space-between !important;
+    align-items: center !important;
+    margin:15px 15px !important;
+    margin-right: 40px !important;
+  }
+.name {
+    text-align: start !important;
+    font-weight: 500 !important;
+    font-size: 1.1rem !important; 
+}
+
+.time {
+    font-size: 0.8rem !important;
+    color: #292929 !important;
+    text-align: end !important;
+  }
+  
+
+
+
+
+
+
+
+
+
+

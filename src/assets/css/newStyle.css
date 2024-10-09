@@ -1,0 +1,198 @@
+.upper-right-side h1 {
+  font-size: 2rem;
+}
+
+.upper-right-side input {
+  outline: none;
+}
+
+.date-picker {
+  margin: 0 20px;
+}
+
+.no-data {
+  margin-top: 10px;
+}
+
+#datePicker {
+  outline: none;
+  height: 40px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.date-picker input {
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  height: 40px;
+}
+
+.right-main-upper-content h6 {
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+  line-height: 1.5 !important;
+}
+
+.right-main-upper-content .page {
+  margin-bottom: 0 !important;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn > button {
+  width: 49%;
+  display: flex;
+  justify-content: center;
+  background-color: #0a58ca;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+.download-btn {
+  border: 1px solid rgba(0, 0, 0, 0.3) !important;
+  border-radius: 5px !important;
+}
+
+.right-content h1 {
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.flex-main-heading h2 {
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.employee-input {
+  border: none !important;
+  outline: none !important;
+  border: 1px solid rgba(0, 0, 0, 0.3) !important;
+  padding: 15px 15px !important;
+  border-radius: 5px;
+}
+
+.right-main-upper-content h6 {
+  font-size: 2rem !important;
+  color: rgba(0, 0, 0, 0.7) !important;
+}
+
+#timelineinput {
+  margin-bottom: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+#timelinedatepicker {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    color: rgba(0, 0, 0, 0.7);
+}
+
+
+.indexes p {
+    margin-bottom: 0 !important;
+}
+
+.edit-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.edit-btn > button {
+    width:49%;
+    background-color: #0a58ca;
+}
+
+.table-recent-work {
+  height: 270px;
+  overflow-y: scroll;
+}
+
+.map-right-progressbar {
+  margin: 15px 0;
+  height: 30px;
+  display: flex;
+  border-radius: 25px;
+  height: 50px;
+  width: 600px;
+}
+
+.map-right-progressbar > div {
+  height: 100%;
+}
+
+.map-right-progressbar > div:first-child {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.map-right-progressbar > div:last-child {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+/* For large screens (desktops and laptops) */
+@media only screen and (min-width: 1200px) {
+    .upper-right-side h1 {
+        font-size: 2.5rem;
+    }
+    .right-content h1 {
+        font-size: 2.5rem;
+    }
+    .flex-main-heading h2 {
+        font-size: 2.5rem;
+    }
+    .right-main-upper-content h6 {
+        font-size: 2.5rem;
+    }
+    .map-right-progressbar {
+        width: 800px;
+    }
+}
+
+/* For medium screens (tablets) */
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    .upper-right-side h1 {
+        font-size: 2rem;
+    }
+    .right-content h1 {
+        font-size: 2rem;
+    }
+    .flex-main-heading h2 {
+        font-size: 2rem;
+    }
+    .right-main-upper-content h6 {
+        font-size: 2rem;
+    }
+    .map-right-progressbar {
+        width: 600px;
+    }
+}
+
+/* For small screens (mobile devices) */
+@media only screen and (max-width: 767px) {
+    .upper-right-side h1 {
+        font-size: 1.5rem;
+    }
+    .right-content h1 {
+        font-size: 1.5rem;
+    }
+    .flex-main-heading h2 {
+        font-size: 1.5rem;
+    }
+    .right-main-upper-content h6 {
+        font-size: 1.5rem;
+    }
+    .map-right-progressbar {
+        width: 400px;
+    }
+    .btn > button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .edit-btn > button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

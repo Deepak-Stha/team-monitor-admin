@@ -1,0 +1,144 @@
+.super-admin {
+    height: 100vh;
+    width: 50%;
+    object-fit: cover;
+  }
+  
+.login-super-admin{
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+    width: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+  
+.form-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+  
+.super-admin-form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 50vh;
+    z-index: 20;
+}
+  
+.label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    gap: 10px;
+}
+  
+.head {
+    font-family: "Potta One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #8570F6;
+    font-size: 64px;
+}
+  
+.saying {
+      font-family: "Sedgwick Ave", cursive;
+      font-weight: 400;
+      font-style: normal;  
+      line-height: 22px;
+      align-items: center;
+}
+ 
+.out-form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.input-and-lables {
+    display: flex;
+    flex-direction: column;
+    /* width: 70vh; */
+}
+  
+.input-and-lables label {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;  
+}
+
+
+.super-login-btn {
+    display: flex;
+    width: 100%;
+    height: 52px;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background: var(--secondary-500, #6D53F4);
+    color: var(--white, #FFF);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    border: none;
+}
+
+/* .v1 {
+    position: absolute;
+    left: 10vh;
+    top: 8vh;
+    width: 13vh;
+    height: 13vh;
+    z-index: 10;
+} */
+
+.v2 {
+    position: absolute;
+    left: 93vh;
+    top: -2px;
+    width: 10vh;
+    height: 10vh;
+    z-index: 10;
+}
+
+.v3 {
+    position: absolute;
+    left: 76vh;
+    top: 75vh;
+    width: 13vh;
+    height: 13vh;
+    z-index: 10;
+}
+
+.v4 {
+    position: absolute;
+    left: 40vh;
+    top: 85vh;
+    width: 8vh;
+    height: 8vh;
+    z-index: 10;
+}
+
+.v5 {
+    position: absolute;
+    left: 8vh;
+    top: 92vh;
+    z-index: 10;
+}
+
+.login-super-admin {
+    position: relative;
+
+}
+

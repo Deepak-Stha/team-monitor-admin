@@ -1,0 +1,108 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+}
+
+.modal-content {
+    background: #005BC4;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+    label {
+        color: white;
+        font-size: 18px;
+        font-family: "Poppins", sans-serif;
+    }
+}
+
+.modal-content h2 {
+    margin-top: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.modal-content label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.modal-content input,
+.modal-content select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+input[type=email],
+input[type=password],
+input[type=text] {
+    width: 100% !important;
+    margin-top: 15px;
+}
+
+.modal-content input,
+.modal-content select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 19px;
+    margin-top: 15px;
+}
+
+.modal-content h2 {
+    text-align: center;
+    color: white;
+    font-family: 30px;
+    margin-bottom: 25px;
+}
+
+form {
+    display: block;
+}
+
+/* Media queries for different screen sizes */
+
+/* For large screens (desktops and laptops) */
+@media only screen and (min-width: 1200px) {
+    .modal-content {
+        width: 500px;
+    }
+}
+
+/* For medium screens (tablets) */
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    .modal-content {
+        width: 400px;
+    }
+}
+
+/* For small screens (mobile devices) */
+@media only screen and (max-width: 767px) {
+    .modal-content {
+        width: 300px;
+    }
+    .modal-content input,
+    .modal-content select {
+        padding: 10px;
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+    .modal-content h2 {
+        font-size: 24px;
+    }
+}
